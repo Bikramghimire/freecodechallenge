@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(218, 211, 211);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(200, 196, 196);
+
+  padding: 10px 0;
+}
+#logo img {
+  width: 300px;
+  padding: 12px 0;
+  margin-left: 10px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header ul {
+  display: flex;
+}
+#header ul li {
+  list-style: none;
+  margin-right: 50px;
+  padding: 10px 25px;
+}
+#header-text {
+  margin: 20px 0;
+}
+form input {
+  width: 350px;
+  padding: 8px 1px;
+  border: none;
+  border-radius: 3px;
+}
+form .btn {
+  background-color: rgb(255, 174, 0);
+  margin-left: 100px;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#header-text form {
+  margin: 20px;
+}
+
+.btn {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.flex-item {
+  display: flex;
+  gap: 40px;
+}
+#middle-content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 0 20%;
+}
+.flex-item i {
+  color: rgb(255, 174, 0);
+}
+#small-mar {
+  margin-left: 12px;
+}
+#viedo {
+  width: 100%;
+  overflow: hidden;
+}
+#viedo iframe {
+  display: block;
+  margin: 70px auto;
+  height: 400px;
+  width: 600px;
+  border: none;
+}
+#grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#pricing .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  border: 1px solid #333333;
+  margin: 10px;
+  border-radius: 3px;
+}
+#pricing .product-head {
+  background-color: rgb(235, 226, 226);
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#pricing .money {
+  margin-top: 10px;
+}
+#pricing .btn {
+  border: 0;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(255, 174, 0);
+}
+footer {
+  background-color: gray;
+  padding: 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+footer ul li {
+  margin-right: 20px;
+}
+footer p {
+  text-align: end;
+  margin-top: 5px;
+}
